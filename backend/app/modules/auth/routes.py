@@ -22,6 +22,7 @@ async def register(data: UserRegister, db: AsyncSession = Depends(get_db)):
 
 
 @router.post("/login", response_model=TokenResponse)
+@router.post("/token", response_model=TokenResponse)
 async def login(
     data: UserLogin,
     request: Request,
