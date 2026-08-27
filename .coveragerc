@@ -1,0 +1,15 @@
+[run]
+source = backend/app
+branch = True
+omit =
+    */tests/*
+    */node_modules/*
+    */.venv/*
+
+[report]
+show_missing = True
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if __name__ == .__main__.:
+    raise NotImplementedError
