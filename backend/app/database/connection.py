@@ -35,22 +35,23 @@ async def init_db() -> None:
                 await db.flush()
 
             # Check admin user
-            res_u = await db.execute(select(User).where(User.email == "admin@peoplepulse.io"))
-            admin = res_u.scalar_one_or_none()
-            if not admin:
-                admin = User(
-                    email="admin@peoplepulse.io",
-                    hashed_password=get_password_hash("Admin@123456"),
-                    first_name="System",
-                    last_name="Administrator",
-                    role="super_admin",
-                    tenant_id="default",
-                    is_active=True,
-                    is_verified=True
-                )
-                db.add(admin)
-                await db.flush()
-                logger.info("Default superuser admin@peoplepulse.io seeded successfully.")
+            for admin_email in ["admin@peoplepulse.io", "admin@hrmanagementsystem.io", "admin@company.com"]:
+                res_u = await db.execute(select(User).where(User.email == admin_email))
+                admin = res_u.scalar_one_or_none()
+                if not admin:
+                    admin = User(
+                        email=admin_email,
+                        hashed_password=get_password_hash("Admin@123456"),
+                        first_name="System",
+                        last_name="Administrator",
+                        role="super_admin",
+                        tenant_id="default",
+                        is_active=True,
+                        is_verified=True
+                    )
+                    db.add(admin)
+                    await db.flush()
+                    logger.info(f"Default superuser {admin_email} seeded successfully.")
 
             await db.commit()
         except Exception as e:

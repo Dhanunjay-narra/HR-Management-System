@@ -81,6 +81,7 @@ app.add_middleware(
 
 # Base healthcheck endpoint
 @app.get("/health", tags=["Health"])
+@app.get(f"{settings.API_V1_STR}/health", tags=["Health"])
 async def health_check():
     return {
         "status": "healthy",
