@@ -18,7 +18,7 @@ export const PayslipViewerModal: React.FC<PayslipViewerModalProps> = ({ payslip,
           <div className="flex items-center gap-2">
             <Building2 className="w-5 h-5 text-blue-400" />
             <div>
-              <h3 className="font-bold text-sm">PEOPLEPULSE GLOBAL ENTERPRISE</h3>
+              <h3 className="font-bold text-sm">HR MANAGEMENT SYSTEM ENTERPRISE</h3>
               <p className="text-[10px] text-slate-400">Official Monthly Earnings Statement</p>
             </div>
           </div>

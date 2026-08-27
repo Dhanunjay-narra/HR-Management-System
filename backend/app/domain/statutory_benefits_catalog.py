@@ -36,7 +36,7 @@ class BenefitPlanDefinition:
 BENEFIT_PLANS_2026_CATALOG: Dict[str, BenefitPlanDefinition] = {
     "401K_TRADITIONAL_MATCH": BenefitPlanDefinition(
         plan_id="BEN-401K-01",
-        plan_name="PeoplePulse Safe-Harbor 401(k) Retirement Plan",
+        plan_name="HR Management System Safe-Harbor 401(k) Retirement Plan",
         benefit_type=BenefitType.RETIREMENT_401K,
         is_pre_tax=True,
         annual_employee_limit=23500.0,

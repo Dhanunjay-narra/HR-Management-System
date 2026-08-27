@@ -196,7 +196,7 @@ def generate_onboarding_checklists():
             ("Day 90 Milestone: Beta Feature Launch & Telemetry Review", "Launch beta feature to customer cohort, analyze adoption funnel and NPS feedback."),
         ]),
         ("Sales_GTM", "Enterprise Software Sales & Solutions", [
-            ("Day 1: CRM & Sales Intelligence Tooling Setup", "Configure Salesforce/PeoplePulse CRM, LinkedIn Sales Navigator, Outreach, and ZoomInfo."),
+            ("Day 1: CRM & Sales Intelligence Tooling Setup", "Configure Salesforce/HR Management System, LinkedIn Sales Navigator, Outreach, and ZoomInfo."),
             ("Day 3: Value Proposition & Competitive Battlecards", "Master product positioning, competitive differentiators, and ROI justification frameworks."),
             ("Week 1: Pitch Certification & Roleplay Simulation", "Deliver mock enterprise product pitch and demo to Sales Director; pass certification."),
             ("Day 30 Milestone: Territory Pipeline Prospecting", "Build pipeline of 50 qualified target accounts; initiate outbound sequence campaigns."),

@@ -502,7 +502,7 @@ class NACHAFileGenerator:
             + "10"                                                 # Blocking factor
             + "1"                                                  # Format code
             + cls.pad_right_space(company_name, 23)                # Destination name
-            + cls.pad_right_space("PEOPLEPULSE CRM", 23)           # Origin name
+            + cls.pad_right_space("HR MANAGEMENT SYSTEM", 23)           # Origin name
             + "00000000"                                           # Reference code
         )
         records.append(rec_1)

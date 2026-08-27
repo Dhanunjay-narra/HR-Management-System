@@ -23,7 +23,7 @@ MASTER_DEEP_ISO_CONTROLS_DATA: Dict[str, DeepISOControlRecord] = {
         domain="Organizational",
         statement="Policies for information security and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel.",
         soc2_criteria="CC1.1, CC1.2",
-        audit_verification_procedure="Review CISO signature on Annual InfoSec Policy v4.2; verify 100% employee acknowledgement in PeoplePulse LMS."
+        audit_verification_procedure="Review CISO signature on Annual InfoSec Policy v4.2; verify 100% employee acknowledgement in HR Management System LMS."
     ),
     "A.5.2": DeepISOControlRecord(
         control_id="A.5.2",

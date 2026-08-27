@@ -10,7 +10,7 @@ from sqlalchemy.orm import DeclarativeBase, declared_attr
 
 
 class Base(DeclarativeBase):
-    """Declarative Base Class for all PeoplePulse ORM entities."""
+    """Declarative Base Class for all HR Management System ORM entities."""
     pass
 
 

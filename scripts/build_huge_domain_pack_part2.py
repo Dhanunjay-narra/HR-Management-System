@@ -255,7 +255,7 @@ class DocumentTemplateCompiler:
         office_location: str
     ) -> str:
         template = """
-PEOPLEPULSE GLOBAL ENTERPRISE INC.
+HR MANAGEMENT SYSTEM ENTERPRISE INC.
 EMPLOYMENT OFFER & APPOINTMENT LETTER
 
 Date: {OFFER_DATE}
@@ -264,7 +264,7 @@ Location: {OFFICE_LOCATION}
 
 Dear {CANDIDATE_NAME},
 
-On behalf of PeoplePulse Global Enterprise Inc., I am thrilled to extend an official offer of employment for the position of {JOB_TITLE} within our {DEPARTMENT} department, reporting directly to {MANAGER_NAME}.
+On behalf of HR Management System Global Enterprise Inc., I am thrilled to extend an official offer of employment for the position of {JOB_TITLE} within our {DEPARTMENT} department, reporting directly to {MANAGER_NAME}.
 
 1. BASE COMPENSATION & BENEFITS
 - Annual Base Salary: ${ANNUAL_SALARY:,.2f} USD, payable in semi-monthly installments.
@@ -274,13 +274,13 @@ On behalf of PeoplePulse Global Enterprise Inc., I am thrilled to extend an offi
 2. COMMENCEMENT & PROBATION
 Your scheduled first day of employment will be {START_DATE}. This offer is contingent upon successful completion of background checks and proof of work authorization.
 
-We look forward to welcoming you to the PeoplePulse team!
+We look forward to welcoming you to the HR Management System team!
 
 Sincerely,
 
 {MANAGER_NAME}
 Department Vice President
-PeoplePulse Global Enterprise
+HR Management System Global Enterprise
 """
         return template.strip().format(
             OFFER_DATE=start_date,

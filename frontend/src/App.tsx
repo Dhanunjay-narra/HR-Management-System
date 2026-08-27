@@ -19,7 +19,7 @@ const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) =
   if (isLoading) {
     return (
       <div className="h-screen flex items-center justify-center bg-slate-900 text-white font-sans text-xs">
-        Loading PeoplePulse CRM...
+        Loading HR Management System...
       </div>
     );
   }

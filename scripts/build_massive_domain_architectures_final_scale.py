@@ -16,7 +16,7 @@ def write(rel, text):
 
 def generate_deep_iso_matrix():
     controls = [
-        ("A.5.1", "Policies for Information Security", "Organizational", "Policies for information security and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel.", "CC1.1, CC1.2", "Review CISO signature on Annual InfoSec Policy v4.2; verify 100% employee acknowledgement in PeoplePulse LMS."),
+        ("A.5.1", "Policies for Information Security", "Organizational", "Policies for information security and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel.", "CC1.1, CC1.2", "Review CISO signature on Annual InfoSec Policy v4.2; verify 100% employee acknowledgement in HR Management System LMS."),
         ("A.5.2", "Information Security Roles and Responsibilities", "Organizational", "Information security roles and responsibilities shall be defined and allocated according to the organization needs.", "CC1.3", "Inspect InfoSec Steering Committee charter and formal RACI responsibility matrix."),
         ("A.5.3", "Segregation of Duties", "Organizational", "Conflicting duties and areas of responsibility shall be segregated to prevent unauthorized or unintentional modification or misuse of assets.", "CC5.1, CC5.2", "Verify separation between software developers and production deployment access; PR merge requires peer review."),
         ("A.5.4", "Management Responsibilities", "Organizational", "Management shall require all personnel to apply information security in accordance with the established policies.", "CC1.4", "Review quarterly executive compliance dashboard presented to the Board of Directors Audit Committee."),

@@ -50,7 +50,7 @@ DEPARTMENT_ONBOARDING_ROADMAPS: Dict[str, DepartmentOnboardingRoadmap] = {
         department_code="Sales_GTM",
         department_name="Enterprise Software Sales & Solutions",
         milestone_tasks=[
-            OnboardingTaskItem("Day 1: CRM & Sales Intelligence Tooling Setup", "Configure Salesforce/PeoplePulse CRM, LinkedIn Sales Navigator, Outreach, and ZoomInfo."),
+            OnboardingTaskItem("Day 1: CRM & Sales Intelligence Tooling Setup", "Configure Salesforce/HR Management System, LinkedIn Sales Navigator, Outreach, and ZoomInfo."),
             OnboardingTaskItem("Day 3: Value Proposition & Competitive Battlecards", "Master product positioning, competitive differentiators, and ROI justification frameworks."),
             OnboardingTaskItem("Week 1: Pitch Certification & Roleplay Simulation", "Deliver mock enterprise product pitch and demo to Sales Director; pass certification."),
             OnboardingTaskItem("Day 30 Milestone: Territory Pipeline Prospecting", "Build pipeline of 50 qualified target accounts; initiate outbound sequence campaigns."),

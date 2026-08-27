@@ -1,5 +1,5 @@
 """
-PeoplePulse CRM - Enterprise FastAPI Application Entrypoint
+HR Management System - Enterprise FastAPI Application Entrypoint
 """
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
@@ -8,7 +8,7 @@ from fastapi.responses import JSONResponse
 
 from app.core.config import settings
 from app.core.logging import logger
-from app.core.exceptions import PeoplePulseException
+from app.core.exceptions import HRManagementSystemException
 from app.database.connection import init_db, close_db
 from app.middleware.tenant_context import TenantContextMiddleware
 
@@ -62,8 +62,8 @@ app = FastAPI(
 )
 
 # Custom Exception Handler
-@app.exception_handler(PeoplePulseException)
-async def custom_exception_handler(request: Request, exc: PeoplePulseException):
+@app.exception_handler(HRManagementSystemException)
+async def custom_exception_handler(request: Request, exc: HRManagementSystemException):
     return JSONResponse(
         status_code=exc.status_code,
         content=exc.detail,

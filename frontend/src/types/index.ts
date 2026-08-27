@@ -1,4 +1,4 @@
-// Domain TypeScript definitions for PeoplePulse CRM
+// Domain TypeScript definitions for HR Management System
 
 export interface User {
   id: string;

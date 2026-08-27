@@ -1,7 +1,7 @@
 {
-  "name": "peoplepulse-crm-workspace",
+  "name": "hr-management-system-workspace",
   "version": "1.0.0",
-  "description": "PeoplePulse CRM - Enterprise HR Management & Workforce Intelligence Platform",
+  "description": "HR Management System - Enterprise HR Management & Workforce Intelligence Platform",
   "private": true,
   "license": "UNLICENSED",
   "workspaces": [

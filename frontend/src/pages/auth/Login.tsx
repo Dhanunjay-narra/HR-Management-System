@@ -34,7 +34,7 @@ export const Login: React.FC = () => {
           <div className="w-12 h-12 rounded-2xl bg-blue-600 text-white flex items-center justify-center mx-auto mb-4 shadow-lg shadow-blue-500/30">
             <Sparkles className="w-6 h-6" />
           </div>
-          <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">PeoplePulse CRM</h1>
+          <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">HR Management System</h1>
           <p className="text-xs text-slate-500 mt-1">Enterprise HR Intelligence Platform</p>
         </div>
 

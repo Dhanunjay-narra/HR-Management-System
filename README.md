@@ -1,4 +1,4 @@
-# PeoplePulse CRM
+# HR Management System
 
 ## Enterprise HR Management & Employee Relationship Intelligence Platform
 
@@ -13,7 +13,7 @@
 
 ## 🌟 Overview
 
-**PeoplePulse CRM** is an enterprise-grade Human Resource Management and Employee Relationship Intelligence platform. Moving beyond traditional "record-keeping" HRMS systems, PeoplePulse delivers an end-to-end **Employee 360° model**, intelligent talent workflows, recruitment pipelines, skills intelligence, configurable HR automation, and AI-assisted operations.
+**HR Management System** is an enterprise-grade Human Resource Management and Employee Relationship Intelligence platform. Moving beyond traditional "record-keeping" HRMS systems, HR Management System delivers an end-to-end **Employee 360° model**, intelligent talent workflows, recruitment pipelines, skills intelligence, configurable HR automation, and AI-assisted operations.
 
 ### Key Differentiators
 1. **Employee 360° Life-Cycle Timeline:** Unified chronological history from recruitment to exit.
@@ -27,7 +27,7 @@
 
 ## 🏗️ Architecture
 
-PeoplePulse is engineered as a clean **Modular Monolith** designed for high velocity, clean domain boundaries, and seamless future microservice extraction.
+HR Management System is engineered as a clean **Modular Monolith** designed for high velocity, clean domain boundaries, and seamless future microservice extraction.
 
 ```
                          ┌───────────────────────┐

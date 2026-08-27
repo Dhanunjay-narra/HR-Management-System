@@ -1,5 +1,5 @@
 """
-PeoplePulse CRM - App Entry Point & Service Runner
+HR Management System - App Entry Point & Service Runner
 """
 import os
 import sys

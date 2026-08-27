@@ -80,7 +80,7 @@ export const DashboardOverview: React.FC = () => {
             <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/20 text-blue-400 border border-blue-500/30 uppercase tracking-wider">
               Enterprise Live
             </span>
-            <span className="text-xs text-slate-400">PeoplePulse Intelligence Hub</span>
+            <span className="text-xs text-slate-400">HR Management System Intelligence Hub</span>
           </div>
           <h2 className="text-xl font-bold text-white tracking-tight">
             Workforce Command Center
@@ -172,7 +172,7 @@ export const DashboardOverview: React.FC = () => {
           </div>
 
           <p className="text-xs text-slate-600 leading-relaxed">
-            PeoplePulse intelligence engine has analyzed cross-department skill distributions and operational velocity.
+            HR Management System intelligence engine has analyzed cross-department skill distributions and operational velocity.
           </p>
 
           <div className="space-y-2">

@@ -14,7 +14,7 @@ ENTERPRISE_POLICY_HANDBOOK_CORPUS: List[Dict[str, Any]] = [
         "keywords": ["remote work", "telecommuting", "hybrid", "work from home", "wfh", "stipend", "ergonomics", "core hours"],
         "content": """
 1. OBJECTIVE & SCOPE
-PeoplePulse CRM is committed to providing flexible workplace arrangements that empower employees to perform at their highest potential while maintaining organizational cohesion, data security, and client satisfaction. This policy applies to all regular full-time and part-time personnel globally.
+HR Management System is committed to providing flexible workplace arrangements that empower employees to perform at their highest potential while maintaining organizational cohesion, data security, and client satisfaction. This policy applies to all regular full-time and part-time personnel globally.
 
 2. HYBRID MODEL GUIDELINES
 - Standard hybrid team members are expected to collaborate on-site at their designated branch office at least 2 days per week (typically Tuesday and Thursday for core team syncs).
@@ -27,7 +27,7 @@ PeoplePulse CRM is committed to providing flexible workplace arrangements that e
 4. HOME OFFICE ERGONOMIC STIPEND
 - Every eligible remote and hybrid employee receives a one-time, non-taxable $500 home office equipment stipend upon completing their 30-day onboarding milestone.
 - Eligible expenditures include ergonomic desk chairs, external 4K monitors, standing desks, noise-canceling headsets, and UPS battery backups.
-- Expense receipts must be uploaded to the PeoplePulse Expense Portal within 45 days of purchase.
+- Expense receipts must be uploaded to the HR Management System Expense Portal within 45 days of purchase.
 
 5. NETWORK & CYBERSECURITY STANDARDS FOR REMOTE ACCESS
 - Remote work must strictly be conducted using company-provisioned laptops managed by Mobile Device Management (MDM) with active full-disk encryption (FileVault / BitLocker).
@@ -58,7 +58,7 @@ PeoplePulse CRM is committed to providing flexible workplace arrangements that e
 - Unused leave beyond the 5-day cap is automatically forfeited unless local statutory labor laws mandate cash encashment upon separation.
 
 4. APPLICATION & APPROVAL WORKFLOW
-- Planned vacation requests exceeding 3 consecutive business days must be submitted via the PeoplePulse Leave Portal at least 14 days in advance.
+- Planned vacation requests exceeding 3 consecutive business days must be submitted via the HR Management System Leave Portal at least 14 days in advance.
 - Managers must review and act upon pending leave applications within 48 business hours.
 """
     },
@@ -104,7 +104,7 @@ PeoplePulse CRM is committed to providing flexible workplace arrangements that e
 - Client entertainment dinners require prior manager approval and itemized receipts listing all attendee names and business discussion topics.
 
 3. SUBMISSION TIMELINE & RECEIPT REQUIREMENTS
-- All reimbursement claims must be filed through PeoplePulse Expense Portal within 30 days of expense occurrence.
+- All reimbursement claims must be filed through HR Management System Expense Portal within 30 days of expense occurrence.
 - Claims submitted after 60 days without mitigating circumstances will not be reimbursed.
 """
     },
@@ -136,7 +136,7 @@ PeoplePulse CRM is committed to providing flexible workplace arrangements that e
         "keywords": ["harassment", "discrimination", "diversity", "inclusion", "eeo", "whistleblower", "investigation"],
         "content": """
 1. ZERO TOLERANCE POLICY
-- PeoplePulse CRM maintains a strict zero-tolerance stance regarding discrimination, harassment, retaliation, or bullying based on race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.
+- HR Management System maintains a strict zero-tolerance stance regarding discrimination, harassment, retaliation, or bullying based on race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.
 
 2. REPORTING CHANNELS
 - Incidents may be reported directly to HR People Business Partners, Department Managers, or anonymously through the 24/7 Whistleblower Ethics Hotline.

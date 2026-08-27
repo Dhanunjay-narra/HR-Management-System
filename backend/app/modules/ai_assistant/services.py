@@ -14,7 +14,7 @@ DEFAULT_ENTERPRISE_POLICIES = [
         "title": "Annual & Sick Leave Policy",
         "category": "LEAVE",
         "keywords": ["leave", "vacation", "sick", "annual", "pto", "holiday", "time off"],
-        "content": "All full-time employees are entitled to 20 days of paid Annual Vacation leave per year, plus 10 days of Paid Sick Leave. Up to 5 unused annual leave days can be carried forward to the following calendar year. Leave applications must be submitted via PeoplePulse portal and approved by your direct manager."
+        "content": "All full-time employees are entitled to 20 days of paid Annual Vacation leave per year, plus 10 days of Paid Sick Leave. Up to 5 unused annual leave days can be carried forward to the following calendar year. Leave applications must be submitted via HR Management System portal and approved by your direct manager."
     },
     {
         "title": "Remote Work & Hybrid Workplace Guidelines",

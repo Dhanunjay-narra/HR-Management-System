@@ -21,7 +21,7 @@ export const AIAssistantChatModal: React.FC<AIAssistantChatModalProps> = ({ isOp
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: "Hello! I am your PeoplePulse AI Assistant. Ask me anything regarding company policies, leave entitlements, health insurance, remote work stipends, or HR workflows.",
+      content: "Hello! I am your HR Management System AI Assistant. Ask me anything regarding company policies, leave entitlements, health insurance, remote work stipends, or HR workflows.",
       suggestedActions: [
         "What is our annual leave entitlement?",
         "How do remote work stipends work?",
@@ -75,7 +75,7 @@ export const AIAssistantChatModal: React.FC<AIAssistantChatModalProps> = ({ isOp
             </div>
             <div>
               <h2 className="font-bold text-sm text-white flex items-center gap-1.5">
-                PeoplePulse AI Knowledge Assistant
+                HR Management System AI Knowledge Assistant
                 <span className="px-2 py-0.5 rounded-full text-[10px] bg-blue-500/30 text-blue-300 font-semibold border border-blue-400/30">
                   RAG Grounded
                 </span>

@@ -20,7 +20,7 @@ class EnterpriseHardwareItem:
 ENTERPRISE_HARDWARE_CATALOG: Dict[str, EnterpriseHardwareItem] = {
     "HW-MBP-16-M3": EnterpriseHardwareItem(
         item_code="HW-MBP-16-M3",
-        model_name="Apple MacBook Pro 16" (M3 Max, 64GB Unified RAM, 1TB SSD)",
+        model_name="Apple MacBook Pro 16-inch (M3 Max, 64GB Unified RAM, 1TB SSD)",
         category="Laptops",
         procurement_cost_usd=3499.0,
         refresh_cycle_months=36,
@@ -29,7 +29,7 @@ ENTERPRISE_HARDWARE_CATALOG: Dict[str, EnterpriseHardwareItem] = {
     ),
     "HW-MBP-14-M3": EnterpriseHardwareItem(
         item_code="HW-MBP-14-M3",
-        model_name="Apple MacBook Pro 14" (M3 Pro, 36GB Unified RAM, 512GB SSD)",
+        model_name="Apple MacBook Pro 14-inch (M3 Pro, 36GB Unified RAM, 512GB SSD)",
         category="Laptops",
         procurement_cost_usd=2399.0,
         refresh_cycle_months=36,
@@ -38,7 +38,7 @@ ENTERPRISE_HARDWARE_CATALOG: Dict[str, EnterpriseHardwareItem] = {
     ),
     "HW-MBA-15-M3": EnterpriseHardwareItem(
         item_code="HW-MBA-15-M3",
-        model_name="Apple MacBook Air 15" (M3, 16GB RAM, 512GB SSD)",
+        model_name="Apple MacBook Air 15-inch (M3, 16GB RAM, 512GB SSD)",
         category="Laptops",
         procurement_cost_usd=1499.0,
         refresh_cycle_months=36,
@@ -65,7 +65,7 @@ ENTERPRISE_HARDWARE_CATALOG: Dict[str, EnterpriseHardwareItem] = {
     ),
     "HW-MON-DELL32": EnterpriseHardwareItem(
         item_code="HW-MON-DELL32",
-        model_name="Dell UltraSharp 32" 4K USB-C Hub Monitor (U3223QE)",
+        model_name="Dell UltraSharp 32-inch 4K USB-C Hub Monitor (U3223QE)",
         category="Monitors",
         procurement_cost_usd=899.0,
         refresh_cycle_months=48,
@@ -74,7 +74,7 @@ ENTERPRISE_HARDWARE_CATALOG: Dict[str, EnterpriseHardwareItem] = {
     ),
     "HW-MON-STUDIO": EnterpriseHardwareItem(
         item_code="HW-MON-STUDIO",
-        model_name="Apple Studio Display 27" 5K Retina (Tilt-Adjustable Stand)",
+        model_name="Apple Studio Display 27-inch 5K Retina (Tilt-Adjustable Stand)",
         category="Monitors",
         procurement_cost_usd=1599.0,
         refresh_cycle_months=48,
