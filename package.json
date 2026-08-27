@@ -1,0 +1,19 @@
+{
+  "name": "peoplepulse-crm-workspace",
+  "version": "1.0.0",
+  "description": "PeoplePulse CRM - Enterprise HR Management & Workforce Intelligence Platform",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "start": "python main.py",
+    "dev": "python main.py",
+    "build": "cd frontend && npm run build",
+    "test": "pytest backend/tests",
+    "test:coverage": "pytest --cov=backend/app --cov-report=xml backend/tests",
+    "test:frontend": "cd frontend && npm test",
+    "lint": "cd frontend && npm run lint"
+  }
+}
