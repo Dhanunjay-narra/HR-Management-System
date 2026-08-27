@@ -306,3 +306,35 @@ export interface AnalyticsOverview {
   total_open_tickets: number;
   total_active_goals: number;
 }
+
+export interface Payslip {
+  id: string;
+  employee_id: string;
+  employee_name: string;
+  designation?: string;
+  department?: string;
+  month: number;
+  year: number;
+  gross_salary: number;
+  deductions: number;
+  net_salary: number;
+  payment_status: string;
+  basic_salary?: number;
+  hra?: number;
+  allowances?: number;
+  gross_earnings?: number;
+  pf_deduction?: number;
+  tax_deduction?: number;
+  other_deductions?: number;
+  total_deductions?: number;
+}
+
+export interface TotalRewardsSummary {
+  base_salary: number;
+  bonus_target: number;
+  equity_value: number;
+  health_subsidy: number;
+  match_401k: number;
+  wellness_perks: number;
+  total_rewards_value: number;
+}
