@@ -7,7 +7,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "PeoplePulse CRM"
+    PROJECT_NAME: str = "HR Management System"
     PROJECT_VERSION: str = "1.0.0"
     API_V1_STR: str = "/api/v1"
     ENVIRONMENT: str = "development"
@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24  # 24 hours
     REFRESH_TOKEN_EXPIRE_DAYS: int = 30
-    MFA_ISSUER_NAME: str = "PeoplePulse CRM"
+    MFA_ISSUER_NAME: str = "HR Management System"
 
     # Database
     DATABASE_URL: str = "sqlite+aiosqlite:///./peoplepulse.db"

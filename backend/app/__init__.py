@@ -1,1 +1,1 @@
-"""PeoplePulse Backend App Package"""
+"""HR Management System Backend App Package"""

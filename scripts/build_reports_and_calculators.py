@@ -75,7 +75,7 @@ class AnnualTaxFormGenerator:
             employee_name=employee_info.get("full_name", "Employee"),
             employee_address=employee_info.get("address", "123 Corporate Blvd, San Francisco, CA"),
             employer_ein="XX-XXXXXXX",
-            employer_name="PeoplePulse Global Enterprise Inc.",
+            employer_name="HR Management System Global Enterprise Inc.",
             tax_year=tax_year,
             box_1_wages_tips_other_comp=round(box_1, 2),
             box_2_federal_income_tax_withheld=round(fed_tax, 2),

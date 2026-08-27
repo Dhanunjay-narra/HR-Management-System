@@ -54,7 +54,7 @@ def generate_complete_80_sops():
             lines.append(f'        functional_domain="{dom_name}",')
             lines.append(f'        sla_days={max(1, (i % 7) + 1)},')
             lines.append(f'        procedural_steps=[')
-            lines.append(f'            "Step 1: Initiate formal request in PeoplePulse workflow portal.",')
+            lines.append(f'            "Step 1: Initiate formal request in HR Management System workflow portal.",')
             lines.append(f'            "Step 2: Automated validation of prerequisites and authorization level.",')
             lines.append(f'            "Step 3: Direct supervisor review and electronic signature approval.",')
             lines.append(f'            "Step 4: Department Head / Functional Lead secondary authorization.",')

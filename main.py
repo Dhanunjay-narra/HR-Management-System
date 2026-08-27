@@ -1,5 +1,5 @@
 """
-PeoplePulse CRM - Enterprise Application Root Entry Point
+HR Management System - Enterprise Application Root Entry Point
 """
 import sys
 import os
@@ -15,5 +15,5 @@ if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8000))
     host = os.environ.get("HOST", "0.0.0.0")
-    print(f"Starting PeoplePulse CRM Enterprise Platform on http://{host}:{port}")
+    print(f"Starting HR Management System Enterprise Platform on http://{host}:{port}")
     uvicorn.run("app.main:app", host=host, port=port, reload=False)

@@ -8,13 +8,13 @@ services:
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-peoplepulse}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-peoplepulse_secret_2026}
-      POSTGRES_DB: ${POSTGRES_DB:-peoplepulse_crm}
+      POSTGRES_DB: ${POSTGRES_DB:-hr_management_system}
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U peoplepulse -d peoplepulse_crm"]
+      test: ["CMD-SHELL", "pg_isready -U peoplepulse -d hr_management_system"]
       interval: 5s
       timeout: 5s
       retries: 5
@@ -60,7 +60,7 @@ services:
       redis:
         condition: service_healthy
     environment:
-      DATABASE_URL: postgresql+asyncpg://peoplepulse:peoplepulse_secret_2026@postgres:5432/peoplepulse_crm
+      DATABASE_URL: postgresql+asyncpg://peoplepulse:peoplepulse_secret_2026@postgres:5432/hr_management_system
       REDIS_URL: redis://redis:6379/0
       JWT_SECRET_KEY: ${JWT_SECRET_KEY:-super_secret_jwt_key_enterprise_2026_production_safe}
       ENVIRONMENT: production

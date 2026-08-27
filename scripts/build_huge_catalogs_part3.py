@@ -151,7 +151,7 @@ def generate_iso_controls():
             lines.append(f'        control_statement="{statement}",')
             lines.append(f'        soc2_trust_criteria_mapping=["CC6.1", "CC6.2", "CC6.6", "CC7.1"],')
             lines.append(f'        evidence_artifacts=["Policy Document approved by CISO", "Quarterly Access Review Log", "Automated Compliance Scan Output"],')
-            lines.append(f'        implementation_guidance="Implement automated policy enforcement in PeoplePulse CRM and maintain immutable audit log in database.",')
+            lines.append(f'        implementation_guidance="Implement automated policy enforcement in HR Management System and maintain immutable audit log in database.",')
             lines.append(f'        default_audit_cadence="ANNUAL"')
             lines.append('    ),')
 

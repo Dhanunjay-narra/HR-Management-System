@@ -5,7 +5,7 @@ from typing import Any, Optional, Dict
 from fastapi import HTTPException, status
 
 
-class PeoplePulseException(HTTPException):
+class HRManagementSystemException(HTTPException):
     def __init__(
         self,
         status_code: int,
@@ -24,7 +24,7 @@ class PeoplePulseException(HTTPException):
         )
 
 
-class AuthenticationException(PeoplePulseException):
+class AuthenticationException(HRManagementSystemException):
     def __init__(self, detail: str = "Invalid credentials or authentication token"):
         super().__init__(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -33,7 +33,7 @@ class AuthenticationException(PeoplePulseException):
         )
 
 
-class PermissionDeniedException(PeoplePulseException):
+class PermissionDeniedException(HRManagementSystemException):
     def __init__(self, required_permission: Optional[str] = None):
         detail = f"Permission denied. Required: {required_permission}" if required_permission else "Access forbidden"
         super().__init__(
@@ -44,7 +44,7 @@ class PermissionDeniedException(PeoplePulseException):
         )
 
 
-class ResourceNotFoundException(PeoplePulseException):
+class ResourceNotFoundException(HRManagementSystemException):
     def __init__(self, resource: str, identifier: Any):
         super().__init__(
             status_code=status.HTTP_404_NOT_FOUND,
@@ -54,7 +54,7 @@ class ResourceNotFoundException(PeoplePulseException):
         )
 
 
-class DuplicateResourceException(PeoplePulseException):
+class DuplicateResourceException(HRManagementSystemException):
     def __init__(self, resource: str, field: str, value: Any):
         super().__init__(
             status_code=status.HTTP_409_CONFLICT,
@@ -64,7 +64,7 @@ class DuplicateResourceException(PeoplePulseException):
         )
 
 
-class TenantIsolationException(PeoplePulseException):
+class TenantIsolationException(HRManagementSystemException):
     def __init__(self, detail: str = "Cross-tenant access violation"):
         super().__init__(
             status_code=status.HTTP_403_FORBIDDEN,
@@ -73,7 +73,7 @@ class TenantIsolationException(PeoplePulseException):
         )
 
 
-class ValidationException(PeoplePulseException):
+class ValidationException(HRManagementSystemException):
     def __init__(self, detail: str, extra: Optional[Dict[str, Any]] = None):
         super().__init__(
             status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,

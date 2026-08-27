@@ -19,7 +19,7 @@ class EngagementSurvey(TenantBaseModel):
     is_anonymous = Column(Boolean, default=True, nullable=False)
     is_active = Column(Boolean, default=True, nullable=False)
     questions = Column(JSON, default=list, nullable=False)
-    # [{"id": "q1", "text": "How likely are you to recommend PeoplePulse?", "type": "scale_1_10"}]
+    # [{"id": "q1", "text": "How likely are you to recommend HR Management System?", "type": "scale_1_10"}]
 
     # Relationships
     responses = relationship("SurveyResponse", back_populates="survey", cascade="all, delete-orphan")

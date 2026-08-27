@@ -62,7 +62,7 @@ def generate_policy_handbook():
     for pid, title, cat, summary in chapters:
         full_text = f"""
 1. PURPOSE & PRINCIPLES
-PeoplePulse Global Enterprise Inc. is committed to transparent, equitable, and legally compliant workforce operations. {summary}
+HR Management System Global Enterprise Inc. is committed to transparent, equitable, and legally compliant workforce operations. {summary}
 
 2. APPLICABILITY & SCOPE
 This policy applies to all active regular full-time, part-time, and international subsidiary employees globally.

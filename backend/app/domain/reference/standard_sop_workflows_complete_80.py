@@ -23,7 +23,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -40,7 +40,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -57,7 +57,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -74,7 +74,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -91,7 +91,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -108,7 +108,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -125,7 +125,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=1,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -142,7 +142,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -159,7 +159,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -176,7 +176,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -193,7 +193,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -210,7 +210,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -227,7 +227,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -244,7 +244,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=1,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -261,7 +261,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -278,7 +278,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -295,7 +295,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -312,7 +312,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -329,7 +329,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -346,7 +346,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Human Resources Operations",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -363,7 +363,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -380,7 +380,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -397,7 +397,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -414,7 +414,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -431,7 +431,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -448,7 +448,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -465,7 +465,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=1,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -482,7 +482,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -499,7 +499,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -516,7 +516,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -533,7 +533,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -550,7 +550,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -567,7 +567,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -584,7 +584,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=1,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -601,7 +601,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -618,7 +618,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -635,7 +635,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -652,7 +652,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -669,7 +669,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -686,7 +686,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Information Technology & Security",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -703,7 +703,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -720,7 +720,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -737,7 +737,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -754,7 +754,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -771,7 +771,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -788,7 +788,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -805,7 +805,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=1,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -822,7 +822,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -839,7 +839,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -856,7 +856,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -873,7 +873,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -890,7 +890,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -907,7 +907,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -924,7 +924,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=1,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -941,7 +941,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -958,7 +958,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -975,7 +975,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -992,7 +992,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1009,7 +1009,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1026,7 +1026,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Finance, Accounting & Payroll",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1043,7 +1043,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1060,7 +1060,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1077,7 +1077,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1094,7 +1094,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1111,7 +1111,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1128,7 +1128,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1145,7 +1145,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=1,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1162,7 +1162,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1179,7 +1179,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1196,7 +1196,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1213,7 +1213,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1230,7 +1230,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1247,7 +1247,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1264,7 +1264,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=1,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1281,7 +1281,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=2,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1298,7 +1298,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=3,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1315,7 +1315,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=4,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1332,7 +1332,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=5,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1349,7 +1349,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=6,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",
@@ -1366,7 +1366,7 @@ MASTER_80_SOPS_DATABASE: Dict[str, MasterSOPRecord] = {
         functional_domain="Legal, Ethics & Compliance",
         sla_days=7,
         procedural_steps=[
-            "Step 1: Initiate formal request in PeoplePulse workflow portal.",
+            "Step 1: Initiate formal request in HR Management System workflow portal.",
             "Step 2: Automated validation of prerequisites and authorization level.",
             "Step 3: Direct supervisor review and electronic signature approval.",
             "Step 4: Department Head / Functional Lead secondary authorization.",

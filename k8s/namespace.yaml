@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: peoplepulse
   labels:
-    app.kubernetes.io/name: peoplepulse-crm
+    app.kubernetes.io/name: hr-management-system
     environment: production

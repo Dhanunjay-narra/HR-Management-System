@@ -48,10 +48,10 @@ export const Sidebar: React.FC = () => {
           <Sparkles className="w-5 h-5" />
         </div>
         <div>
-          <h1 className="font-bold text-base text-white tracking-tight leading-none">
-            PeoplePulse<span className="text-blue-400">.AI</span>
+          <h1 className="font-bold text-sm text-white tracking-tight leading-none">
+            HR Management System
           </h1>
-          <span className="text-[10px] text-slate-400 font-medium uppercase tracking-wider">Enterprise CRM</span>
+          <span className="text-[10px] text-blue-400 font-medium uppercase tracking-wider">Enterprise Platform</span>
         </div>
       </div>
 
