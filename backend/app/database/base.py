@@ -83,3 +83,32 @@ class TenantBaseModel(Base, PrimaryKeyMixin, TimestampMixin, SoftDeleteMixin, Te
             c.name: getattr(self, c.name)
             for c in self.__table__.columns
         }
+
+
+# Register all domain models for SQLAlchemy relationships
+try:
+    import app.modules.tenants.models  # noqa
+    import app.modules.auth.models  # noqa
+    import app.modules.organization.models  # noqa
+    import app.modules.employees.models  # noqa
+    import app.modules.employee_360.models  # noqa
+    import app.modules.attendance.models  # noqa
+    import app.modules.leave.models  # noqa
+    import app.modules.recruitment.models  # noqa
+    import app.modules.onboarding.models  # noqa
+    import app.modules.goals.models  # noqa
+    import app.modules.skills.models  # noqa
+    import app.modules.learning.models  # noqa
+    import app.modules.service_desk.models  # noqa
+    import app.modules.engagement.models  # noqa
+    import app.modules.communication.models  # noqa
+    import app.modules.workflows.models  # noqa
+    import app.modules.approvals.models  # noqa
+    import app.modules.payroll.models  # noqa
+    import app.modules.expenses.models  # noqa
+    import app.modules.assets.models  # noqa
+    import app.modules.documents.models  # noqa
+    import app.modules.notifications.models  # noqa
+    import app.modules.audit.models  # noqa
+except ImportError:
+    pass

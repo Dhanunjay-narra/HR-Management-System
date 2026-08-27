@@ -92,6 +92,7 @@ async def health_check():
 
 # Register API Routers
 app.include_router(auth_router, prefix=settings.API_V1_STR)
+app.include_router(auth_router)  # Direct /auth/... support
 app.include_router(tenants_router, prefix=settings.API_V1_STR)
 app.include_router(audit_router, prefix=settings.API_V1_STR)
 app.include_router(notifications_router, prefix=settings.API_V1_STR)

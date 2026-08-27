@@ -17,7 +17,14 @@ export const Login: React.FC = () => {
       await login(email, password);
       window.location.href = '/';
     } catch (err: any) {
-      setError(err.response?.data?.detail || 'Authentication failed. Please check credentials.');
+      const msg =
+        err.response?.data?.message ||
+        (typeof err.response?.data?.detail === 'string'
+          ? err.response?.data?.detail
+          : err.response?.data?.detail?.message) ||
+        err.message ||
+        'Authentication failed. Please check credentials.';
+      setError(msg);
     } finally {
       setLoading(false);
     }
