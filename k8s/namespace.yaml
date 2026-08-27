@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: peoplepulse
+  labels:
+    app.kubernetes.io/name: peoplepulse-crm
+    environment: production

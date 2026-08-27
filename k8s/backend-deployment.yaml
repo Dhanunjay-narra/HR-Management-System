@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: peoplepulse-backend
+  namespace: peoplepulse
+  labels:
+    app: peoplepulse-backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: peoplepulse-backend
+  template:
+    metadata:
+      labels:
+        app: peoplepulse-backend
+    spec:
+      containers:
+        - name: backend
+          image: peoplepulse-backend:1.0.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
+          env:
+            - name: DATABASE_URL
+              value: "postgresql+asyncpg://peoplepulse:peoplepulse_secret_2026@postgres-service:5432/peoplepulse_crm"
+            - name: REDIS_URL
+              value: "redis://redis-service:6379/0"
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "512Mi"
+            limits:
+              cpu: "1000m"
+              memory: "1Gi"
+          readinessProbe:
+            httpGet:
+              path: /api/v1/health
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /api/v1/health
+              port: 8000
+            initialDelaySeconds: 15
+            periodSeconds: 20
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service
+  namespace: peoplepulse
+spec:
+  type: ClusterIP
+  selector:
+    app: peoplepulse-backend
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
